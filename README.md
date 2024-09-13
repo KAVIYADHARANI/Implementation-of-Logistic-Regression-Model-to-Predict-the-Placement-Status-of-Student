@@ -10,10 +10,15 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ## Algorithm:
 
 1.Import the standard libraries such as pandas module to read the corresponding csv file.
+
 2.Upload the dataset values and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+
 3.Import LabelEncoder and encode the corresponding dataset values.
+
 4.Import LogisticRegression from sklearn and apply the model on the dataset using train and test values of x and y and Predict the values of array using the variable y_pred.
+
 5.Calculate the accuracy, confusion and the classification report by importing the required modules such as accuracy_score, confusion_matrix and the classification_report from sklearn.metrics module.
+
 6.Apply new unknown values and print all the acqirred values for accuracy, confusion and the classification report. 
 
 ## Program:
